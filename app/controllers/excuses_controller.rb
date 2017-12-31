@@ -13,7 +13,7 @@ class ExcusesController < ApplicationController
 
 
   def excuse_params
-    params.require(:excuse).permit(:excuse)
+    params.require(:excuse).permit(:excuse, :author)
   end
 
 

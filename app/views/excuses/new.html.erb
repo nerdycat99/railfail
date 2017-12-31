@@ -6,6 +6,7 @@
     <br />
     <%= simple_form_for Excuse.new do |f| %>
       <%= f.input :excuse, label: "customers are advised that...", placeholder: "enter excuse here"%>
+      <%= f.input :author, label: "submitted by", placeholder: "your name here"%>
       <br />
       <%= f.submit "submit your excuse for rail incompetance to the fat cats", class: 'btn btn-primary col-10 offset-1' %>
       <br />

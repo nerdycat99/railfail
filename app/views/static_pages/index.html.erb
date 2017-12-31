@@ -26,11 +26,22 @@
     customers are advised that...
   </div>
   <div class="excuse-text">
-    &nbsp;
-    "
-    <%= @excuse.excuse %>
-    "  
+    <% if @excuse.present? %>
+      &nbsp;
+      "
+      <%= @excuse.excuse %>
+      "  
+    <% end %>
   </div>
+  <br />
+  <% if @excuse.author.present? %>
+    - &nbsp;
+    <%= @excuse.author %>
+  <% else %>
+    - anon.
+  <% end %>
+
 </div>
 <br /><br />
+<%= link_to 'show another excuse', root_path, class: 'btn btn-primary float-left col-10 offset-1' %>
 
