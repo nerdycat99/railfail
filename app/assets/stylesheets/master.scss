@@ -1,0 +1,117 @@
+@import "bootstrap";
+
+.circle
+{
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  background: #EE6557;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  box-shadow: 0 0 0 0 #FFFFFF, 0 0 0 0 #EE6557;
+  -webkit-transition: box-shadow 0.28s ease-out;
+  -moz-transition: box-shadow 0.28s ease-out;
+  -o-transition: box-shadow 0.28s ease-out;
+}
+
+.circle:hover
+{
+  box-shadow: 0 0 0 7px #FFFFFF, 0 0 0 8px #EE6557;
+  cursor: pointer;
+}
+
+
+.hero {
+  background: url(delayed.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 480px;
+  box-shadow: 0px 3px 8px #2a2a2a;
+}
+
+.frosty {
+  background: rgba(54,61,64,0.75);
+  color: white;
+}
+
+.frosty h1 {
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 100;
+  text-shadow: 1px 1px 1px #000;
+}
+
+
+.frosty h2 {
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 200;
+  text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+}
+
+.booyah-box {
+  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  box-shadow: 1px 1px 2px 0 #d0d0d0;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 200;
+  padding: 10px;
+}
+
+.excuse {
+  font-family: "Courier New", Courier;
+  font-weight: 100;
+  font-size: 28px;
+}
+
+.excuse-text {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-weight: 100;
+  font-size: 28px;
+}
+
+.helvy-text {
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 200;
+  font-size: 28px;
+}
+
+.helvy-text-bold {
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 400;
+  font-size: 34px;
+}
+
+.newexcusebackground {
+  background: url(delaybackground.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

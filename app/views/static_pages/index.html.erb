@@ -1,0 +1,36 @@
+<div class="hero">
+  <br />
+  <div class="frosty col-10 offset-1 text-center">
+    <br />
+    <h1>the definitive excuses generator</h1>
+    <br />
+    <h1>for train companies in the shittish isles</h1>
+    <br />
+    <h5>can't be bothered to make up new excuses to the poor bastards using your shitty service? look no further...</h5>
+    <br />
+  </div>
+  <br /><br />
+  <div class="row">
+    <div class="col-4 offset-2">
+      <%= link_to 'more excuses', root_path, class: 'btn btn-primary float-left' %>
+    </div>
+    <div class="col-4">
+      <%= link_to 'create excuse', new_excuse_path, class: 'btn btn-primary float-right' %>
+    </div>
+  </div>
+</div>
+
+<br /><br /><br />
+<div class="booyah-box col-10 offset-1">
+  <div class="excuse">
+    customers are advised that...
+  </div>
+  <div class="excuse-text">
+    &nbsp;
+    "
+    <%= @excuse.excuse %>
+    "  
+  </div>
+</div>
+<br /><br />
+

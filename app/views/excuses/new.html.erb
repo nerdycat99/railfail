@@ -1,0 +1,15 @@
+<div class="newexcusebackground">
+  <br /><br />
+  <div class="booyah-box col-10 offset-1">
+    <h2 class="helvy-text-bold">create a new excuse</h2>
+    <div class="helvy-text">what shit should we tell the customers?</div>
+    <br />
+    <%= simple_form_for Excuse.new do |f| %>
+      <%= f.input :excuse, label: "customers are advised that...", placeholder: "enter excuse here"%>
+      <br />
+      <%= f.submit "submit your excuse for rail incompetance to the fat cats", class: 'btn btn-primary col-10 offset-1' %>
+      <br />
+    <% end %>
+    <br /> 
+  </div>
+</div>
