@@ -7,17 +7,19 @@
     <h1>for train companies in the shittish isles</h1>
     <br />
     <h5>can't be bothered to make up new excuses to the poor bastards using your shitty service? look no further...</h5>
-    <br />
+    <br /><br />
+    <div class="row">
+      <div class="col-4 offset-2">
+        <%= link_to 'more excuses', root_path, class: 'btn btn-primary float-left' %>
+      </div>
+      <div class="col-4">
+        <%= link_to 'create excuse', new_excuse_path, class: 'btn btn-primary float-right' %>
+      </div>
+    </div>
+    <br /><br />
   </div>
   <br /><br />
-  <div class="row">
-    <div class="col-4 offset-2">
-      <%= link_to 'more excuses', root_path, class: 'btn btn-primary float-left' %>
-    </div>
-    <div class="col-4">
-      <%= link_to 'create excuse', new_excuse_path, class: 'btn btn-primary float-right' %>
-    </div>
-  </div>
+
 </div>
 
 <br /><br /><br />
@@ -34,12 +36,10 @@
     <% end %>
   </div>
   <br />
-  <% if @excuse.author.present? %>
-    - &nbsp;
-    <%= @excuse.author %>
-  <% else %>
-    - anon.
-  <% end %>
+
+
+
+
 
 </div>
 <br /><br />
