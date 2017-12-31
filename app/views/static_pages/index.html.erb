@@ -6,7 +6,7 @@
     <br />
     <h1>for train companies in the shittish isles</h1>
     <br />
-    <h5>can't be bothered to make up new excuses to the poor bastards using your shitty service? look no further...</h5>
+    <h5>can't be bothered to make up new excuses for your shitty train service? look no further...</h5>
     <br /><br />
     <div class="row">
       <div class="col-4 offset-2">
@@ -32,11 +32,17 @@
       &nbsp;
       "
       <%= @excuse.excuse %>
-      "  
+      " 
+      <br />
+        <% if @excuse.author.present? %>
+        - &nbsp;
+        <%= @excuse.author %>
+        <br />
+      <% end %> 
     <% end %>
-  </div>
-  <br />
+  
 
+  </div>
 
 
 
