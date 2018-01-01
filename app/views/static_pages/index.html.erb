@@ -27,18 +27,22 @@
   <div class="excuse">
     customers are advised that...
   </div>
-  <div class="excuse-text">
+  <div>
     <% if @excuse.present? %>
-      &nbsp;
-      "
-      <%= @excuse.excuse %>
-      " 
+      <div class="excuse-text">
+        &nbsp;
+        "
+        <%= @excuse.excuse %>
+        " 
+      </div>
       <br />
         <% if @excuse.author.present? %>
-        - &nbsp;
-        <%= @excuse.author %>
-        <br />
-      <% end %> 
+          - &nbsp;
+          <%= @excuse.author %>
+        <% else %>
+          - &nbsp; anon
+        <% end %> 
+      <br />
     <% end %>
   
 
