@@ -99,6 +99,15 @@
   height: 500px;
 }
 
+.fatcat {
+  background: url("fatcat.jpg") no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 500px;
+}
+
 .logo {
   font-family: 'Monofett', cursive;
   font-weight: 100;
